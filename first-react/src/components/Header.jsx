@@ -1,17 +1,12 @@
 const Header = () => {
   return (
     <header className="header">
-      <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSykC1lrDLtYjrJG6mR-41s7oA3T4IN5WVz4A&s"
-        className="img"
-        alt="react-logo"
-      />
       <nav>
-        <ul className="nav-list">
-          <li className="nav-list-item">Pricing</li>
-          <li className="nav-list-item">About</li>
-          <li className="nav-list-item">Contact</li>
-        </ul>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvL_Js6ytj48K_mNqPEdqJNR5yLhAj_iWIIw&s"
+          alt="react-logo"
+        />
+        <span>ReactFacts</span>
       </nav>
     </header>
   );
