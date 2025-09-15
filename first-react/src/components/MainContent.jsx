@@ -1,6 +1,6 @@
 const MainContent = () => {
   return (
-    <div>
+    <div className="main">
       <h1>Fun facts about React!</h1>
       <ul>
         <li>Was first release in 2013</li>
